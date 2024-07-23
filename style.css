@@ -208,8 +208,7 @@ footer .social-media img {
     height: auto;
 }
 
-footer .contact-info,
-footer .copyright {
+footer .contact-info{
     color: #fff;
     margin-top: 1rem;
 }
