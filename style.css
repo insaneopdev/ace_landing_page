@@ -79,7 +79,7 @@ body {
     font-size: 2.5rem;
     margin-bottom: 1rem;
 }
-.acesvce{
+.acesvce,.acesvcechild{
     width: 80%;
 }
 .ace{
@@ -227,6 +227,10 @@ footer .contact-info{
     
     .acesvce{
         width: 400%;
+    }
+
+    .acesvcechild{
+        width: 100%;
     }
 }
 
