@@ -25,6 +25,7 @@ header .container {
 header .logo {
     font-size: 1.5rem;
     color: #fff;
+    text-decoration: none;
     font-weight: bold;
 }
 header{
@@ -76,6 +77,11 @@ body {
     padding: 10%;
     font-size: 2.5rem;
     margin-bottom: 1rem;
+}
+
+.acesvce{
+    text-decoration: none;
+    color: #fff;
 }
 
 .ace{
@@ -206,4 +212,45 @@ footer .contact-info,
 footer .copyright {
     color: #fff;
     margin-top: 1rem;
+}
+@media only screen and (max-width : 400px){
+    .aceimg{
+        width: 70%;
+    }
+    .Hackerrupptimg{
+        width: 100%;
+    }
+    .Interruptimg{
+        width: 150%;
+    }
+    
+    .acetalksimg{
+        width: 100%;
+    }
+}
+
+.Interruptimg{
+    width: 60%;
+}
+
+.acelink{
+    color: #333;
+    text-decoration: none;
+}
+
+.interrupttext{
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+    color: #333;
+    
+}
+
+.contain {
+    left: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+    max-width: 3000px;
+    color: #333;
+    margin: 0 auto;
+    top: -10px;
 }
